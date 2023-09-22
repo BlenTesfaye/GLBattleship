@@ -17,11 +17,25 @@ _
 - curated styling to compliment the One Piece theme
 
 ## Expected Challenges Ahead
-  The HTML and CSS should be quite simple. Each ship will be given its own div class and then the spaces it contains would be div id. Ill be using CSS for my dimensions and interactive things like color. The challenges i excpect are in JS. for example, the use of the empty slots on the grid. The use of parameters and setting listener for the many functions. 
+  The HTML and CSS should be quite simple. Each ship will be given its own div class and then the spaces it contains would be div id. Ill be using CSS for my dimensions and interactive things like color. The challenges i excpect are in JS. for example, the use of the empty slots on the grid. The use of parameters and setting listeners for the many functions. 
 
 
 ## wireframe design link: 
 https://www.figma.com/file/FTuqp3izwm6FcvoxNt9WPl/Grand-Line-Battleship-(OP)?type=design&node-id=0%3A1&mode=design&t=dZs2gr7817PaR9zc-1
+
+
+-
+for each marine ship
+duv elements containing 3 different div elements for each ship. (all are the same size) 
+div class = marine container 
+   div id = marine 1
+            marine 2 
+            marine 3
+
+making the board (grid) 
+take parameters in grid for which we want the squares for 
+
+
 
 
 
