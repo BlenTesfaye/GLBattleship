@@ -1,0 +1,185 @@
+header {
+    text-align: center;
+    background: center/cover url("wp7175389.webp") no-repeat;
+    background-size: cover;
+    color: #DAA520;
+    font-family: luminari;
+    }
+    
+    h1 {
+        font-size: 70px;
+        }
+        img {
+        width: 320px;
+        margin: 40px 0px 0px 0px;
+        border: 9px solid #da9c3f;
+        border-radius: 200px;
+        }
+        
+        
+        ul {
+        padding: 27px;
+        background: rgba(34, 183, 229, 0.37);
+        font-family: monospace
+        }
+        li {
+        display: inline;
+        padding: 10px 10px 0px 10px;
+        font-size: 19px;
+        }
+        button {
+            font-size: 17px;
+            padding: 0.5em 2em;
+            border: transparent;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+            background: dodgerblue;
+            color: white;
+            border-radius: 4px;
+           }
+           
+           button:hover {
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+           }
+           
+           button:active {
+            transform: translate(0em, 0.2em);
+           }
+           
+
+        #gamesboard-container {
+            width: 1400px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        body {
+            background-color: rgb(7, 7, 81);
+            /* background-size: cover; */
+            
+            
+            }
+            p {
+                font-size: 1.5vmin;
+                color: #aa3ea7;
+                font-family: 'Azeret Mono', monospace;
+            
+            }
+             /* .div-grids{
+                display: flex;
+                flex-direction: row;
+            }  */
+            
+             /* .panel {
+                display: flex;
+                flex-direction: row;
+            }  */
+
+            .game-board {
+                width: 400px;
+                height: 400px;
+                display: flex;
+                flex-wrap: wrap; 
+                border: solid 3px black;
+                flex-direction: row;
+                
+            }
+            
+            .block {
+                width: 40px;
+                height: 40px;
+                border: solid 1px rgb(60, 57, 133);
+                box-sizing: border-box;
+                position: relative;
+    
+            }
+            
+            .option-container {
+                width: 1415px;
+                height: 120px;
+                margin: 30px 40;
+                background-color: #DAA250;
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border: solid 2px black;
+                
+            }
+            
+            .destroyer {
+                background-color: rgb(114, 28, 28);
+            }
+            
+            .submarine {
+                background-color: rgb(23, 92, 23);
+            }
+            
+            .cruiser {
+                background-color: rgb(100, 5, 100);
+            }
+            
+            .battleship {
+                background-color: rgb(112, 82, 27);
+            }
+            
+            .carrier {
+                background-color: rgb(33, 33, 129);
+            }
+            
+            .destroyer-preview {
+                width: 40px;
+                height: 20px;
+                margin: 3px;
+            }
+            
+            .submarine-preview {
+                width: 60px;
+                height: 20px;
+                margin: 3px;
+            }
+            
+            .cruiser-preview {
+                width: 60px;
+                height: 20px;
+                margin: 3px;
+            }
+            
+            .battleship-preview {
+                width: 80px;
+                height: 20px;
+                margin: 3px;
+            }
+            
+            .carrier-preview {
+                width: 100px;
+                height: 20px;
+                margin: 3px;
+            }
+            
+            .hover {
+                background-color: grey;
+            }
+            
+            #computer .destroyer,
+            #computer .submarine,
+            #computer .cruiser,
+            #computer .battleship,
+            #computer .carrier {
+                background-color: #e9af9f;
+            }
+            
+            .boom {
+                background: url('Cross-Circle.png') center center no-repeat;
+                background-size: contain;
+            }
+            
+            .empty {
+                background: url('Cross.png') center center no-repeat;
+                background-size: contain;
+            }
+            .WebContainer{
+                width:100%;
+                min-width:1000px;
+                height:auto;
+            }
